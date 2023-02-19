@@ -1,0 +1,12 @@
+
+Z	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¾ï¯
+Z	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¾ï¯
+Z	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(¾ï¯
+Z	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(¾ï¯
+Z	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(¾ï¯
+Z	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(¾ï¯
+o
+java:S1192"ZDefine a constant instead of duplicating this literal "Cannot perform the action" 6 times.(¾ï¯
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ã´£¤øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ú‡Åû
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ú‡Åû

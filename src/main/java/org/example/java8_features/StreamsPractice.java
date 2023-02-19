@@ -1,8 +1,10 @@
 package org.example.java8_features;
 
+import java.net.Inet4Address;
 import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamsPractice {
     public static void main(String[] args) {
@@ -86,9 +88,51 @@ public class StreamsPractice {
                 .limit(3)
                 .collect(Collectors.toList());
 
+//      Exercise 7 — Get a list of orders which were ordered on 1-Feb-2022, log the order records
+//      to the console and then return its product list
+        List<Product> productList5 = orders.stream()
+                .filter(o -> o.orderDate.compareTo(LocalDate.of(2022,2,1)) == 0)
+                .peek(o -> System.out.println(o.toString()))
+                .flatMap(o -> o.products.stream())
+                .collect(Collectors.toList());
+
+//        Exercise 8 — Calculate total lump sum of all orders placed in Feb 2022
+        Double sum = orders.stream()
+                .filter(o -> o.orderDate.isAfter(LocalDate.of(2022,1,31)))
+                .filter(o -> o.orderDate.isBefore(LocalDate.of(2022,3,1)))
+                .flatMap(o -> o.products.stream())
+                .mapToDouble(p -> p.price)
+                .sum();
+        System.out.println(sum);
+
+
+//        Exercise 9 — Calculate order average payment placed on 1-Feb-2022
+        Double avg = orders.stream()
+                .filter(o -> o.orderDate.isEqual(LocalDate.of(2022,2,1)))
+                .flatMap(o -> o.products.stream())
+                .mapToDouble(p -> p.price)
+                .average().getAsDouble();
+        System.out.println(avg);
+
+        //
+//        String s = "anilkumar";
+////        char[] ch = s.toCharArray();
+////        List<Character> chr = s.
+//        int [] freq = new int[256];
+////        Stream.of(ch).forEach(c -> System.out.println(c));
+//
+//        int i=0;
+//        List<Integer> list = Stream.of(s).map(c -> {
+//            freq[c.charAt(i) - 'a']++;
+//            return freq;
+//        }).collect(Collectors.toList());
 
     }
-
+//    public static Map<Character, Long> getFrequency(String s) {
+//        return s.chars()
+//                .mapToObj(c -> (char) c)
+//                .collect(Collectors.groupingBy(c -> c, Collectors.counting()));
+//    }
 
 }
 

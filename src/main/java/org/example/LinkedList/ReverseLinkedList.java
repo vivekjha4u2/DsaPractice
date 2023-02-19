@@ -1,5 +1,7 @@
 package org.example.LinkedList;
 
+import java.util.List;
+
 public class ReverseLinkedList {
     public static void main(String[] args) {
 //        [1,2,3,4,5]
@@ -10,8 +12,10 @@ public class ReverseLinkedList {
         head.next.next.next.next = new ListNode(5);
 
         printList(head);
-        ListNode result = reverseList(head);
-        printList(result);
+//        ListNode result = reverseList(head);
+//        printList(result);
+        ListNode result1 = reverseRecursive(head);
+        printList(result1);
     }
 
     private static void printList(ListNode head) {
@@ -36,6 +40,14 @@ public class ReverseLinkedList {
         }
         curr.next = prev;
         return curr;
+    }
+
+    private static ListNode reverseRecursive(ListNode head) {
+        if(head == null || head.next == null) return head;
+        ListNode newHead = reverseRecursive(head.next);
+        head.next.next = head;
+        head.next = null;
+        return newHead;
     }
 
 }
