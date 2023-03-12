@@ -12,14 +12,30 @@ public class Main {
     //11
     //10
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(2,1,2,1,2);
-        int res=0;
-        for(int num:list){
-            res ^= num;
-        }
-        System.out.println(res);
+
+        String s = "tree";
+        s.chars().mapToObj(c->(char)c)
+                .collect(Collectors.groupingBy(c->c, Collectors.counting()));
 
 
+//        List<Integer> list = Arrays.asList(2,1,2,1,2);
+//        int res=0;
+//        for(int num:list){
+//            res ^= num;
+//        }
+//        System.out.println(res);
+
+//        if(1){
+//            System.out.println("s");
+//        }
+
+//        while(true){
+//            System.out.println("jk");
+//        }
+
+//        for(int i=0;;){
+//            System.out.println("s");
+//        }
 
 
 //        Integer a = 100;

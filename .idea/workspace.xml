@@ -5,28 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dac0c889-7922-494e-abc0-7679d95af028" name="Changes" comment="LongestCommonSubsequence">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/Merge2LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/ItemShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/ItemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/VendingStates/IdleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/VendingStates/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SlidingWindow/SubarraySumEqualsK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SlidingWindow/SubarraysWithKDifferentInts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/String/GcdString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Tree/ZigzagTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/random/DataSt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/random/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Strategy/WithStrategy/GoodsVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Strategy/WithStrategy/LuxuryVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Strategy/WithStrategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Strategy/WithStrategy/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Strategy/WithStrategy/strategy/DriveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Strategy/WithStrategy/strategy/NormalDriveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Strategy/WithStrategy/strategy/SpecialDriveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Strategy/WithoutStrategy/GoodsVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Strategy/WithoutStrategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Strategy/WithoutStrategy/OffroadVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Strategy/WithoutStrategy/SuperCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Strategy/WithoutStrategy/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/String/SortCharsByFreq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch/SearchInsertPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8_features/StreamsPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8_features/StreamsPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/random/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,12 +51,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1669864209" />
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1677399393" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1669864208" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1669864209" />
                   </RecentBranch>
                 </list>
               </option>
@@ -96,39 +92,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.LowLevelDesign.Strategy.WithStrategy" />
       <recent name="org.example.LowLevelDesign.VendingMachine" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example.LowLevelDesign.VendingMachine" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Merge2LinkedList">
-    <configuration name="DataSt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.random.DataSt" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.random.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java8_features.Demo" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.java8_features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="CodingPractice" />
@@ -142,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge2LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.LinkedList.Merge2LinkedList" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Sort.MergeSort" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.LinkedList.*" />
+          <option name="PATTERN" value="org.example.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +126,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigzagTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Tree.ZigzagTraversal" />
+    <configuration name="SortCharsByFreq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.String.SortCharsByFreq" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Tree.*" />
+          <option name="PATTERN" value="org.example.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.LowLevelDesign.Strategy.WithStrategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LowLevelDesign.Strategy.WithStrategy.Main" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.LowLevelDesign.Strategy.WithStrategy.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.LowLevelDesign.Strategy.WithoutStrategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LowLevelDesign.Strategy.WithoutStrategy.Main" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.LowLevelDesign.Strategy.WithoutStrategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Merge2LinkedList" />
-        <item itemvalue="Application.ZigzagTraversal" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.org.example.LowLevelDesign.Strategy.WithStrategy.Main" />
+        <item itemvalue="Application.org.example.LowLevelDesign.Strategy.WithoutStrategy.Main" />
+        <item itemvalue="Application.SortCharsByFreq" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.DataSt" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +194,17 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -217,7 +225,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>55</line>
+          <line>71</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -267,7 +275,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>87</line>
+          <line>103</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -338,7 +346,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/LinkedList/Merge2LinkedList.java</url>
-          <line>41</line>
+          <line>40</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
