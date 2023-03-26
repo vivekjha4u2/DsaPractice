@@ -44,12 +44,8 @@ j
 :src/main/java/org/example/LinkedList/Merge2LinkedList.java,e\3\e3085a4b70327b9ef425d4309a482c9b504a344c
 \
 ,src/main/java/org/example/random/DataSt.java,4\8\48fd21c1092720492981a0db72b87d8531e5d724
-^
-.src/main/java/org/example/random/TreeNode.java,7\d\7d1e0a47f266471cf043ebe268dc24e25c51c67d
 \
 ,src/main/java/org/example/demo/Employee.java,4\3\437f75401613358b58362461308daceb9fb55a55
-c
-3src/main/java/org/example/Tree/ZigzagTraversal.java,1\a\1ad35270986cc8ac5921658f3760e7e87328a926
 p
 @src/main/java/org/example/BinarySearch/SearchInsertPosition.java,b\d\bd1e8bf83dc66193abd20cb34cd081486dbc3d27
 Y
