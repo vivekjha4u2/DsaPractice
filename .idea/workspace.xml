@@ -5,28 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dac0c889-7922-494e-abc0-7679d95af028" name="Changes" comment="LongestCommonSubsequence">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/Merge2LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/ItemShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/ItemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/VendingStates/IdleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/VendingMachine/VendingStates/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SlidingWindow/SubarraySumEqualsK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SlidingWindow/SubarraysWithKDifferentInts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/String/GcdString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Tree/ZigzagTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/random/DataSt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/random/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Graph/Islands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/AbstractFactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/AbstractFactory/factory/AbsVehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/AbstractFactory/factory/LuxuryVehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/AbstractFactory/factory/OrdinaryVehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/AbstractFactory/factory/VehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/AbstractFactory/vehicles/Bmw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/AbstractFactory/vehicles/LuxuryVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/AbstractFactory/vehicles/Mercedes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/AbstractFactory/vehicles/OrdinaryVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/AbstractFactory/vehicles/Swift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/AbstractFactory/vehicles/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Decorator/pizza/BasePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Decorator/pizza/Farmhouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Decorator/pizza/Margherita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Decorator/pizza/VegDelight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Decorator/toppingsdecorator/ExtraCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Decorator/toppingsdecorator/ToppingDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Factory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Factory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Factory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Factory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/Factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ObserverPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ObserverPattern/Observable/IphoneStockObservableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ObserverPattern/Observable/StockObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ObserverPattern/Observer/EmailAlertObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LowLevelDesign/ObserverPattern/Observer/NotificationAlertObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Tree/ConstructTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Tree/PathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1ad35270986cc8ac5921658f3760e7e87328a926" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d1e0a47f266471cf043ebe268dc24e25c51c67d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8_features/StreamsPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8_features/StreamsPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/random/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,12 +67,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1669864209" />
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1677399393" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1669864208" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1669864209" />
                   </RecentBranch>
                 </list>
               </option>
@@ -96,45 +108,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.LowLevelDesign.AbstractFactory" />
+      <recent name="org.example.LowLevelDesign.Strategy.WithStrategy" />
       <recent name="org.example.LowLevelDesign.VendingMachine" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example.LowLevelDesign.VendingMachine" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Merge2LinkedList">
-    <configuration name="DataSt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.random.DataSt" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.random.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java8_features.Demo" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.java8_features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.example.LowLevelDesign.Decorator.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LowLevelDesign.ObserverPattern.Main" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.LowLevelDesign.ObserverPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,21 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge2LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.LinkedList.Merge2LinkedList" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZigzagTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Tree.ZigzagTraversal" />
+    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Tree.PathSum" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
@@ -168,13 +143,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.LowLevelDesign.AbstractFactory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LowLevelDesign.AbstractFactory.Main" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.LowLevelDesign.AbstractFactory.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.LowLevelDesign.Decorator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LowLevelDesign.Decorator.Main" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.LowLevelDesign.Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.LowLevelDesign.Factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LowLevelDesign.Factory.Main" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.LowLevelDesign.Factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Merge2LinkedList" />
-        <item itemvalue="Application.ZigzagTraversal" />
+        <item itemvalue="Application.org.example.LowLevelDesign.Decorator.Main" />
+        <item itemvalue="Application.org.example.LowLevelDesign.AbstractFactory.Main" />
+        <item itemvalue="Application.org.example.LowLevelDesign.Factory.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.DataSt" />
+        <item itemvalue="Application.PathSum" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +211,17 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -217,7 +242,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>55</line>
+          <line>71</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -267,7 +292,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>87</line>
+          <line>103</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -338,8 +363,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/LinkedList/Merge2LinkedList.java</url>
-          <line>41</line>
+          <line>40</line>
           <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Graph/Islands.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Tree/PathSum.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Tree/PathSum.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
