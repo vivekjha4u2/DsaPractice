@@ -13,9 +13,17 @@ public class Main {
     //10
     public static void main(String[] args) {
 
+        int [] arr = new int[4];
+        arr[0]=4;arr[1]=2;arr[2]=7;
+//        Arrays.sort(arr, (a,b)->{a-b});
+
+
         String s = "tree";
         s.chars().mapToObj(c->(char)c)
                 .collect(Collectors.groupingBy(c->c, Collectors.counting()));
+char c = 's';
+        s.contains(String.valueOf(c));
+        s.charAt(0);
 
 
 //        List<Integer> list = Arrays.asList(2,1,2,1,2);
