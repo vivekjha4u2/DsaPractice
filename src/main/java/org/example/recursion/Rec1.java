@@ -1,5 +1,8 @@
 package org.example.recursion;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Rec1 {
     public static void main(String[] args) {
         int n = 6;
@@ -21,8 +24,25 @@ public class Rec1 {
 //        System.out.println(isPal);
 
         //fibonacci
-        int ans = fibonacci(n);
-        System.out.println(ans);
+//        int ans = fibonacci(n);
+//        System.out.println(ans);
+
+        //subsequence
+        int [] arr = new int[]{1,2,3};
+        List<Integer> list = new ArrayList<>();
+        printSubsequence(arr,0,arr.length-1,list);
+    }
+
+    private static void printSubsequence(int[] arr, int s, int e, List<Integer> list) {// multiple rec calls
+        if(s>e){
+            for(int p: list) System.out.print(p+" ");
+            System.out.println();
+            return;
+        }
+        list.add(arr[s]);
+        printSubsequence(arr, s+1, e, list);
+        list.remove(list.size()-1);
+        printSubsequence(arr, s+1, e, list);
     }
 
     // 0 1 1 2 3 5 8
